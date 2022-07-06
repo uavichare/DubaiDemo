@@ -4,14 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-
-public class IndoorLibrary {
-
+public class Parent {
     public static void s(Context c, String message){
         Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
-       // Parent p = new Parent();
-        Parent.s(c,message);
-
     }
 
 
