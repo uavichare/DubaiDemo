@@ -7,8 +7,8 @@ import android.widget.Toast;
 
 public class IndoorLibrary {
 
-        Demo D;
-    public  void s(Context c, String message){
+      static   Demo D;
+    public static void s(Context c, String message){
 
 
         Toast.makeText(c,String.valueOf(D.calculateSum(4,5)),Toast.LENGTH_LONG).show();
