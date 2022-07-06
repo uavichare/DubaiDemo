@@ -8,7 +8,7 @@ import android.widget.Toast;
 public class IndoorLibrary {
 
     public static void s(Context c, String message){
-        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+       // Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
        // Parent p = new Parent();
         Parent.s(c,message);
 
