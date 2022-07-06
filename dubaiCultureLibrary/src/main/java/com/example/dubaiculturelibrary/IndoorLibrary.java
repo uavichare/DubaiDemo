@@ -7,18 +7,10 @@ import android.widget.Toast;
 
 public class IndoorLibrary {
 
-    Demo D;
     public static void s(Context c, String message){
         Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
     }
 
-
-/*
-    public static void callNavigation(Activity v,int  id){
-      //  Navigation.findNavController(v,R.id.nav_host_fragment).navigate(R.id.home_dashboard);
-
-    }
-*/
 
     public static void getNavFragment(Context c)
     {
