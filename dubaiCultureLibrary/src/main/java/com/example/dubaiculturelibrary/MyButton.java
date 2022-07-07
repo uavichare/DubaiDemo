@@ -1,6 +1,7 @@
 package com.example.dubaiculturelibrary;
 
 import android.content.Context;
+import android.content.Intent;
 import android.widget.Toast;
 
 public class MyButton {
@@ -20,4 +21,17 @@ public class MyButton {
         // Toast.makeText(c,"success",Toast.LENGTH_SHORT).show();
 
     }
+
+    public void OpenScreen(Context c) {
+        Intent intent = null;
+        try {
+            intent = new Intent(c,Class.forName("com.example.dubaiculturelibrary.TestActivity") );
+            c.startActivity(intent);
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
 }
