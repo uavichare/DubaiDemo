@@ -6,7 +6,7 @@ public class MyButton {
     MyListener ml;
 
     // constructor
-    MyButton(MyListener ml) {
+    public MyButton(MyListener ml) {
         //Setting the listener
         this.ml = ml;
     }
