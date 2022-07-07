@@ -28,6 +28,7 @@ public class TestActivity extends AppCompatActivity implements MyListener {
 
     public void callToast()
     {
+        Toast.makeText(this, "uday bevda", Toast.LENGTH_SHORT).show();
 /*
         MyButton button=new MyButton(this);
         button.MyLogicToIntimateOthers("uday bevda");
