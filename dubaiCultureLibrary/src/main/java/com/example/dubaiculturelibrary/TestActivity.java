@@ -7,13 +7,13 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 public class TestActivity extends AppCompatActivity implements MyListener {
-
+    MyButton button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        MyButton button=new MyButton(this);
+         button=new MyButton(this);
 
     }
 
@@ -26,5 +26,10 @@ public class TestActivity extends AppCompatActivity implements MyListener {
     @Override
     public void getNavFragment(Context c) {
 
+    }
+
+    public void callToast()
+    {
+        button.MyLogicToIntimateOthers("uday bevda");
     }
 }
