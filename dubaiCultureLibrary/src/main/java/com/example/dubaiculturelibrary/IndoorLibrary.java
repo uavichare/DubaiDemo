@@ -19,7 +19,7 @@ public class IndoorLibrary {
     {
         Intent intent = null;
         try {
-            intent = new Intent(c,Class.forName("com.example.dubaiculturedemo.MainActivity") );
+            intent = new Intent(c,Class.forName("com.example.dubaiculturelibrary.TestActivity") );
             c.startActivity(intent);
 
         } catch (ClassNotFoundException e) {
