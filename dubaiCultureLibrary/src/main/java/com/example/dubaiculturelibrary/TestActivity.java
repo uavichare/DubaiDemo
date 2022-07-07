@@ -28,7 +28,9 @@ public class TestActivity extends AppCompatActivity implements MyListener {
 
     public void callToast()
     {
+/*
         MyButton button=new MyButton(this);
         button.MyLogicToIntimateOthers("uday bevda");
+*/
     }
 }
