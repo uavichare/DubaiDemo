@@ -1,6 +1,7 @@
 package com.example.dubaiculturelibrary;
 
 import android.content.Context;
+import android.widget.Toast;
 
 public class MyButton {
     MyListener ml;
@@ -15,6 +16,8 @@ public class MyButton {
 
     public void MyLogicToIntimateOthers(Context c) {
         //Invoke the interface
-        ml.s(c, "success");
+        //ml.s(c, "success");
+         Toast.makeText(c,"success",Toast.LENGTH_SHORT).show();
+
     }
 }
