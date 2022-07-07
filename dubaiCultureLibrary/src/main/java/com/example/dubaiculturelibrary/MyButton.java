@@ -7,17 +7,17 @@ public class MyButton {
     MyListener ml;
 
     // constructor
-/*
+
     public MyButton(MyListener ml) {
         //Setting the listener
         this.ml = ml;
     }
-*/
 
-    public void MyLogicToIntimateOthers(Context c) {
+
+    public void MyLogicToIntimateOthers() {
         //Invoke the interface
-        //ml.s(c, "success");
-         Toast.makeText(c,"success",Toast.LENGTH_SHORT).show();
+        ml.s("success");
+        // Toast.makeText(c,"success",Toast.LENGTH_SHORT).show();
 
     }
 }
