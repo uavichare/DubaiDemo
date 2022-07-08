@@ -1,2 +1,1 @@
 -keep class com.example.dubaiculturelibrary.MyButton
--dontwarn com.example.dubaiculturelibrary.**
