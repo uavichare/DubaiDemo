@@ -22,4 +22,4 @@
 #-keep class com.example.dubaiculturelibrary.**{*;}
 -keep class com.example.dubaiculturelibrary.**{*;}
 #-keep class com.example.dubaiculturelibrary.MyButton
--keep class com.example.dubaiculturelibrary.MyListener.**{*;}
+-keep class com.example.dubaiculturelibrary.rty**{*;}
