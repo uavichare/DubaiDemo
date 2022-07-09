@@ -1,7 +1,9 @@
-package com.example.dubaiculturelibrary;
+package com.example.dubaiculturelibrary.rty;
 
 import android.content.Context;
 import android.content.Intent;
+
+import com.example.dubaiculturelibrary.MyListener;
 
 public class MyButton {
     MyListener ml;
