@@ -22,4 +22,6 @@
 #-keep class com.example.dubaiculturelibrary.**{*;}
 #//-keep class com.example.dubaiculturelibrary.**{*;}
 #-keep class com.example.dubaiculturelibrary.MyButton
-#-keep class com.example.dubaiculturelibrary.rty**{*;}
+#-keep class com.infomedia.angkasapura2v2.model.* { *; }
+
+-keep class com.example.dubaiculturelibrary.rty.* {*; }
