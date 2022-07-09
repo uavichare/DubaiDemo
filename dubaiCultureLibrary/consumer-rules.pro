@@ -1,1 +1,1 @@
--keep class com.example.dubaiculturelibrary.rty.* {*; }
+-keepnames class com.example.dubaiculturelibrary.MyListener
