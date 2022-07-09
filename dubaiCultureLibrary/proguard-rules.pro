@@ -23,5 +23,11 @@
 #//-keep class com.example.dubaiculturelibrary.**{*;}
 #-keep class com.example.dubaiculturelibrary.MyButton
 #-keep class com.infomedia.angkasapura2v2.model.* { *; }
+-keep,allowshrinking class com.example.dubaiculturelibrary.rty.MyButton {
+    public <methods>;
+    protected <methods>;
+    public static <methods>;
+    public <init>(...);
+}
 
 -keepnames class com.example.dubaiculturelibrary.rty.MyButton
