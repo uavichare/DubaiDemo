@@ -1,9 +1,7 @@
 package com.example.dubaiculturelibrary;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.widget.Toast;
 
 public class MyButton {
     MyListener ml;
